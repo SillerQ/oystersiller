@@ -1,5 +1,21 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <Nav title='家具尺寸图👻'/>
+    <h1>家具尺寸图</h1>
+    <Footer />
   </div>
 </template>
+
+<script lang="ts">
+import { defineComponent } from 'vue';
+import Nav from '@/components/Nav.vue';
+import Footer from '@/components/Footer.vue';
+
+export default defineComponent({
+  name: 'About',
+  components: {
+    Nav,
+    Footer,
+  },
+});
+</script>
