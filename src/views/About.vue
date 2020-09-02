@@ -1,7 +1,10 @@
 <template>
   <div class="about">
     <Nav title='家具尺寸图👻'/>
-    <h1>家具尺寸图</h1>
+    <div class="main">
+        <img src="../assets/fire.png" />
+        <img src="../assets/foreg.png" />
+    </div>
     <Footer />
   </div>
 </template>
@@ -19,3 +22,9 @@ export default defineComponent({
   },
 });
 </script>
+
+<style lang="scss" scoped>
+ .main {
+   height: calc(100vh - 246px);
+ }
+</style>

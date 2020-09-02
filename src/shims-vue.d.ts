@@ -6,5 +6,5 @@ declare module '*.vue' {
 }
 
 declare module '*.jpg' {
-  export const jpg: any;
+  export const jpg: string;
 }

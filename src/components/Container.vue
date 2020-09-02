@@ -21,10 +21,31 @@ import bathroom2 from '@/assets/decoration-imgs/bathroom2.jpg';
 import bathroom3 from '@/assets/decoration-imgs/bathroom3.jpg';
 import bathroom4 from '@/assets/decoration-imgs/bathroom4.jpg';
 
+import kitchen0 from '@/assets/decoration-imgs/kitchen0.jpg';
+import kitchen1 from '@/assets/decoration-imgs/kitchen1.jpg';
+import kitchen2 from '@/assets/decoration-imgs/kitchen2.jpg';
+import kitchen3 from '@/assets/decoration-imgs/kitchen3.jpg';
+import kitchen4 from '@/assets/decoration-imgs/kitchen4.jpg';
+import kitchen5 from '@/assets/decoration-imgs/kitchen5.jpg';
+
+import tvwall0 from '@/assets/decoration-imgs/tvwall0.jpg';
+import tvwall1 from '@/assets/decoration-imgs/tvwall1.jpg';
+import tvwall2 from '@/assets/decoration-imgs/tvwall2.jpg';
+import tvwall3 from '@/assets/decoration-imgs/tvwall3.jpg';
+import tvwall4 from '@/assets/decoration-imgs/tvwall4.jpg';
+import tvwall5 from '@/assets/decoration-imgs/tvwall5.jpg';
+import tvwall6 from '@/assets/decoration-imgs/tvwall6.jpg';
+
+import washBasin0 from '@/assets/decoration-imgs/wash-basin0.jpg';
+import washBasin1 from '@/assets/decoration-imgs/wash-basin1.jpg';
+import washBasin2 from '@/assets/decoration-imgs/wash-basin2.jpg';
+
 import shoesCabinet from '@/assets/decoration-imgs/shoes-cabinet.jpg';
 import shoesCabinet2 from '@/assets/decoration-imgs/shoes-cabinet2.jpg';
 import shoesCabinet3 from '@/assets/decoration-imgs/shoes-cabinet3.jpg';
 import shoesCabinet4 from '@/assets/decoration-imgs/shoes-cabinet4.jpg';
+
+import masterroom0 from '@/assets/decoration-imgs/master-bedroom1.jpg';
 
 export default defineComponent({
   name: 'Container',
@@ -33,36 +54,49 @@ export default defineComponent({
   },
   data() {
     return {
+      isShowHref: '',
       lists: [
-        {
-          title: '鞋柜',
-          tips: '柜底悬空，有放钥匙和一些随身物品的地方，最好有抽屉',
-          imgs: [
-            {
-              imgSrc: shoesCabinet,
-              imgHref: '好好住',
-            },
-            {
-              imgSrc: shoesCabinet2,
-              imgHref: '好好住',
-            },
-            {
-              imgSrc: shoesCabinet3,
-              imgHref: '好好住',
-            },
-            {
-              imgSrc: shoesCabinet4,
-              imgHref: '好好住',
-            },
-          ],
-        },
+        // {
+        //   title: '鞋柜',
+        //   tips: '柜底悬空，有放钥匙和一些随身物品的地方，最好有抽屉',
+        //   imgs: [
+        //     {
+        //       imgSrc: shoesCabinet,
+        //       imgHref: '',
+        //     },
+        //     {
+        //       imgSrc: shoesCabinet2,
+        //       imgHref: '',
+        //     },
+        //     {
+        //       imgSrc: shoesCabinet3,
+        //       imgHref: '',
+        //     },
+        //     {
+        //       imgSrc: shoesCabinet4,
+        //       imgHref: '',
+        //     },
+        //   ],
+        // },
         {
           title: '厨房',
           tips: '',
           imgs: [
             {
-              imgSrc: bathroom2,
-              imgHref: '好好住',
+              imgSrc: kitchen0,
+              imgHref: 'https://m.haohaozhu.cn/tupian/001o3i200000h6mj.html?hz_dev=ios&hz_share_plfm=link&hz_share_uid=MFA5aXRRZHpWSGQ0K1B5SHZ1clpKQT09OjBlNjJkMjAzYTJkZTMzNmY5MTBhMmZkOWI2ZDBkMGUy',
+            },
+            {
+              imgSrc: kitchen2,
+              imgHref: 'https://m.haohaozhu.cn/tupian/0038ayk000013nt0.html?hz_dev=ios&hz_share_plfm=link&hz_share_uid=MFA5aXRRZHpWSGQ0K1B5SHZ1clpKQT09OjBlNjJkMjAzYTJkZTMzNmY5MTBhMmZkOWI2ZDBkMGUy',
+            },
+            {
+              imgSrc: kitchen4,
+              imgHref: 'https://m.haohaozhu.cn/tupian/003pxjc000054zzw.html?hz_dev=ios&hz_share_plfm=link&hz_share_uid=MFA5aXRRZHpWSGQ0K1B5SHZ1clpKQT09OjBlNjJkMjAzYTJkZTMzNmY5MTBhMmZkOWI2ZDBkMGUy',
+            },
+            {
+              imgSrc: kitchen5,
+              imgHref: 'https://m.haohaozhu.cn/tupian/000cmqa00000xl2r.html?hz_dev=ios&hz_share_plfm=link&hz_share_uid=MFA5aXRRZHpWSGQ0K1B5SHZ1clpKQT09OjBlNjJkMjAzYTJkZTMzNmY5MTBhMmZkOWI2ZDBkMGUy',
             },
           ],
         },
@@ -71,7 +105,31 @@ export default defineComponent({
           tips: '',
           imgs: [
             {
-              imgSrc: 'www.google.com',
+              imgSrc: tvwall0,
+              imgHref: '好好住',
+            },
+            {
+              imgSrc: tvwall1,
+              imgHref: '好好住',
+            },
+            {
+              imgSrc: tvwall2,
+              imgHref: '好好住',
+            },
+            {
+              imgSrc: tvwall3,
+              imgHref: '好好住',
+            },
+            {
+              imgSrc: tvwall4,
+              imgHref: '好好住',
+            },
+            {
+              imgSrc: tvwall5,
+              imgHref: '好好住',
+            },
+            {
+              imgSrc: tvwall6,
               imgHref: '好好住',
             },
           ],
@@ -81,8 +139,16 @@ export default defineComponent({
           tips: '',
           imgs: [
             {
-              imgSrc: 'www.google.com',
-              imgHref: '好好住',
+              imgSrc: washBasin0,
+              imgHref: 'https://m.haohaozhu.cn/tupian/002affy00001jxae.html?hz_dev=ios&hz_share_plfm=link&hz_share_uid=MFA5aXRRZHpWSGQ0K1B5SHZ1clpKQT09OjBlNjJkMjAzYTJkZTMzNmY5MTBhMmZkOWI2ZDBkMGUy',
+            },
+            {
+              imgSrc: washBasin1,
+              imgHref: 'https://m.haohaozhu.cn/tupian/002affy00001jxae.html?hz_dev=ios&hz_share_plfm=link&hz_share_uid=MFA5aXRRZHpWSGQ0K1B5SHZ1clpKQT09OjBlNjJkMjAzYTJkZTMzNmY5MTBhMmZkOWI2ZDBkMGUy',
+            },
+            {
+              imgSrc: washBasin2,
+              imgHref: 'https://m.haohaozhu.cn/tupian/0013cmf000008hp2.html?hz_dev=ios&hz_share_plfm=link&hz_share_uid=MFA5aXRRZHpWSGQ0K1B5SHZ1clpKQT09OjBlNjJkMjAzYTJkZTMzNmY5MTBhMmZkOWI2ZDBkMGUy',
             },
           ],
         },
@@ -91,40 +157,90 @@ export default defineComponent({
           tips: '',
           imgs: [
             {
-              imgSrc: 'www.google.com',
-              imgHref: '好好住',
+              imgSrc: bathroom1,
+              imgHref: '',
+            },
+            {
+              imgSrc: bathroom2,
+              imgHref: '',
+            },
+            {
+              imgSrc: bathroom3,
+              imgHref: '',
+            },
+            {
+              imgSrc: bathroom4,
+              imgHref: 'https://m.haohaozhu.cn/tupian/001tc7l000014mra.html?hz_dev=ios&hz_share_plfm=link&hz_share_uid=MFA5aXRRZHpWSGQ0K1B5SHZ1clpKQT09OjBlNjJkMjAzYTJkZTMzNmY5MTBhMmZkOWI2ZDBkMGUy',
+            },
+          ],
+        },
+        {
+          title: '卧室',
+          tips: '',
+          imgs: [
+            {
+              imgSrc: masterroom0,
+              imgHref: 'https://m.haohaozhu.cn/tupian/001o1uo000044il7.html?hz_dev=ios&hz_share_plfm=link&hz_share_uid=MFA5aXRRZHpWSGQ0K1B5SHZ1clpKQT09OjBlNjJkMjAzYTJkZTMzNmY5MTBhMmZkOWI2ZDBkMGUy',
             },
           ],
         },
       ],
     };
   },
+  // methods: {
+  //   onClickImg(img: string) {
+  //     console.log(img);
+  //     this.isShowHref = img;
+  //   },
+  // },
 });
 </script>
 
 <style lang="scss" scoped>
 .container {
-    background-color: #F5F0EB;
-    padding-left: 164px;
+    // background-color: #F5F0EB;
     .item {
-        padding-bottom: 32px;
+      position: relative;
+      padding-left: 164px;
+    }
+    .item:nth-child(1) {
+      background-color: #E6EEE9;
+    }
+    .item:nth-child(2) {
+      background-color: #eae5eb;
+    }
+    .item:nth-child(3) {
+      background-color: #F5F0EB;
+    }
+    .item:nth-child(4) {
+      background-color: #dae6e7;
+    }
+    .item:nth-child(5) {
+      background-color: #e1e1e1;
+    }
+    .item:nth-child(6) {
+      background-color: #dbd1d5;
     }
     .title-box {
-        color: #ffffff;
-        background-color: #000000;
-        padding: 10px 18px;
-        border-radius: 0 0 3px 3px;
-        font-size: 18px;
-        line-height: 41px;
+      position: absolute;
+      color: #ffffff;
+      background-color: #000000;
+      padding: 54px 18px 12px;
+      border-radius: 0 0 3px 3px;
+      font-size: 18px;
     }
     .tips {
-        margin-top: 18px;
-        margin-bottom: 84px;
+      height: 128px;
+      line-height: 128px;
     }
     .imglist {
-        height: 314px;
-        width:100%;
-        overflow: auto;
+      height: 314px;
+      width: auto;
+      overflow-y: hidden;
+      overflow-x: auto;
+      display: flex;
+      justify-content: flex-start;
+      padding-bottom: 32px;
     }
 }
 </style>
