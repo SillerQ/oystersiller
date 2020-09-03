@@ -235,4 +235,12 @@ export default defineComponent({
       padding-bottom: 32px;
     }
 }
+
+@media (max-width: 1024PX) {
+  .container{
+    .item {
+      padding-left: 4rem;
+    }
+  }
+ }
 </style>

@@ -34,4 +34,9 @@ a {
     color: #03A87F;
   }
 }
+@media (max-width: 1024PX) {
+  #header-bar {
+  padding: 24px 0 96px 4rem;
+}
+ }
 </style>

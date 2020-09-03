@@ -31,4 +31,20 @@ export default defineComponent({
    height: calc(100vh - 246px);
    padding-left: 164px;
  }
+ @media (max-width: 1024px) {
+   .main{
+      padding-left: 4rem;
+      // height: auto;
+      img {
+        width: 300px;
+      }
+    }
+ }
+@media (max-width: 414) {
+  .about {
+    img {
+      width: 200px;
+    }
+  }
+}
 </style>

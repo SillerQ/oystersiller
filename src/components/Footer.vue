@@ -1,5 +1,5 @@
 <template>
-    <div id="footer">装修记录. Site is hosted on Github and deployed by Siller.</div>
+    <div id="footer">装修记录. Site is hosted on Github and deployed by <a href="https://github.com/SillerQ/oystersiller">Siller</a></div>
 </template>
 <style lang="scss" scoped>
 #footer {

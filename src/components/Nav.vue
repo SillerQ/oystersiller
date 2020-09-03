@@ -25,4 +25,13 @@ export default defineComponent({
     padding-bottom: 24px;
   }
 }
+
+@media (max-width: 1024PX) {
+  #nav {
+    .title {
+      font-size: 24px;
+      margin-left: 4rem;
+    }
+  }
+ }
 </style>
