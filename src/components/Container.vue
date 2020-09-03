@@ -16,36 +16,36 @@
 import { defineComponent } from 'vue';
 import ImgBox from '@/components/ImgBox.vue';
 
-import bathroom1 from '@/assets/decoration-imgs/bathroom1.jpg';
-import bathroom2 from '@/assets/decoration-imgs/bathroom2.jpg';
-import bathroom3 from '@/assets/decoration-imgs/bathroom3.jpg';
-import bathroom4 from '@/assets/decoration-imgs/bathroom4.jpg';
+import bathroom1 from '@/assets/decoration-imgs/bathroom1_optimized.jpg';
+import bathroom2 from '@/assets/decoration-imgs/bathroom2_optimized.jpg';
+import bathroom3 from '@/assets/decoration-imgs/bathroom3_optimized.jpg';
+import bathroom4 from '@/assets/decoration-imgs/bathroom4_optimized.jpg';
 
-import kitchen0 from '@/assets/decoration-imgs/kitchen0.jpg';
-import kitchen1 from '@/assets/decoration-imgs/kitchen1.jpg';
-import kitchen2 from '@/assets/decoration-imgs/kitchen2.jpg';
-import kitchen3 from '@/assets/decoration-imgs/kitchen3.jpg';
-import kitchen4 from '@/assets/decoration-imgs/kitchen4.jpg';
-import kitchen5 from '@/assets/decoration-imgs/kitchen5.jpg';
+import kitchen0 from '@/assets/decoration-imgs/kitchen0_optimized.jpg';
+import kitchen1 from '@/assets/decoration-imgs/kitchen1_optimized.jpg';
+import kitchen2 from '@/assets/decoration-imgs/kitchen2_optimized.jpg';
+import kitchen3 from '@/assets/decoration-imgs/kitchen3_optimized.jpg';
+import kitchen4 from '@/assets/decoration-imgs/kitchen4_optimized.jpg';
+import kitchen5 from '@/assets/decoration-imgs/kitchen5_optimized.jpg';
 
-import tvwall0 from '@/assets/decoration-imgs/tvwall0.jpg';
-import tvwall1 from '@/assets/decoration-imgs/tvwall1.jpg';
-import tvwall2 from '@/assets/decoration-imgs/tvwall2.jpg';
-import tvwall3 from '@/assets/decoration-imgs/tvwall3.jpg';
-import tvwall4 from '@/assets/decoration-imgs/tvwall4.jpg';
-import tvwall5 from '@/assets/decoration-imgs/tvwall5.jpg';
-import tvwall6 from '@/assets/decoration-imgs/tvwall6.jpg';
+import tvwall0 from '@/assets/decoration-imgs/tvwall0_optimized.jpg';
+import tvwall1 from '@/assets/decoration-imgs/tvwall1_optimized.jpg';
+import tvwall2 from '@/assets/decoration-imgs/tvwall2_optimized.jpg';
+import tvwall3 from '@/assets/decoration-imgs/tvwall3_optimized.jpg';
+import tvwall4 from '@/assets/decoration-imgs/tvwall4_optimized.jpg';
+import tvwall5 from '@/assets/decoration-imgs/tvwall5_optimized.jpg';
+import tvwall6 from '@/assets/decoration-imgs/tvwall6_optimized.jpg';
 
-import washBasin0 from '@/assets/decoration-imgs/wash-basin0.jpg';
-import washBasin1 from '@/assets/decoration-imgs/wash-basin1.jpg';
-import washBasin2 from '@/assets/decoration-imgs/wash-basin2.jpg';
+import washBasin0 from '@/assets/decoration-imgs/wash-basin0_optimized.jpg';
+import washBasin1 from '@/assets/decoration-imgs/wash-basin1_optimized.jpg';
+import washBasin2 from '@/assets/decoration-imgs/wash-basin2_optimized.jpg';
 
-import shoesCabinet from '@/assets/decoration-imgs/shoes-cabinet.jpg';
-import shoesCabinet2 from '@/assets/decoration-imgs/shoes-cabinet2.jpg';
-import shoesCabinet3 from '@/assets/decoration-imgs/shoes-cabinet3.jpg';
-import shoesCabinet4 from '@/assets/decoration-imgs/shoes-cabinet4.jpg';
+import shoesCabinet from '@/assets/decoration-imgs/shoes-cabinet_optimized.jpg';
+import shoesCabinet2 from '@/assets/decoration-imgs/shoes-cabinet2_optimized.jpg';
+import shoesCabinet3 from '@/assets/decoration-imgs/shoes-cabinet3_optimized.jpg';
+import shoesCabinet4 from '@/assets/decoration-imgs/shoes-cabinet4_optimized.jpg';
 
-import masterroom0 from '@/assets/decoration-imgs/master-bedroom1.jpg';
+import masterroom0 from '@/assets/decoration-imgs/master-bedroom1_optimized.jpg';
 
 export default defineComponent({
   name: 'Container',
