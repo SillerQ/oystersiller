@@ -1,4 +1,3 @@
-/* eslint-disable max-len */
 <template>
   <div id="app">
     <div id="header-bar">

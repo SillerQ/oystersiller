@@ -40,10 +40,10 @@ import washBasin0 from '@/assets/decoration-imgs/wash-basin0_optimized.jpg';
 import washBasin1 from '@/assets/decoration-imgs/wash-basin1_optimized.jpg';
 import washBasin2 from '@/assets/decoration-imgs/wash-basin2_optimized.jpg';
 
-import shoesCabinet from '@/assets/decoration-imgs/shoes-cabinet_optimized.jpg';
-import shoesCabinet2 from '@/assets/decoration-imgs/shoes-cabinet2_optimized.jpg';
-import shoesCabinet3 from '@/assets/decoration-imgs/shoes-cabinet3_optimized.jpg';
-import shoesCabinet4 from '@/assets/decoration-imgs/shoes-cabinet4_optimized.jpg';
+// import shoesCabinet from '@/assets/decoration-imgs/shoes-cabinet_optimized.jpg';
+// import shoesCabinet2 from '@/assets/decoration-imgs/shoes-cabinet2_optimized.jpg';
+// import shoesCabinet3 from '@/assets/decoration-imgs/shoes-cabinet3_optimized.jpg';
+// import shoesCabinet4 from '@/assets/decoration-imgs/shoes-cabinet4_optimized.jpg';
 
 import masterroom0 from '@/assets/decoration-imgs/master-bedroom1_optimized.jpg';
 

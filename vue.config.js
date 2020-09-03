@@ -5,7 +5,7 @@ module.exports = {
     host: '0.0.0.0',
     open: true,
   },
-  publicPath: process.env.NODE_ENV === 'production'
-    ? '/oystersiller/'
-    : '/',
+  // publicPath: process.env.NODE_ENV === 'production'
+  //   ? '/oystersiller/'
+  //   : '/',
 };
