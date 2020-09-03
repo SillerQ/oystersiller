@@ -106,31 +106,23 @@ export default defineComponent({
           imgs: [
             {
               imgSrc: tvwall0,
-              imgHref: '好好住',
+              imgHref: 'https://m.haohaozhu.cn/tupian/00182u200002k1f5.html?hz_dev=ios&hz_share_plfm=link&hz_share_uid=TnNCd2orZzJuY0RFaEtXNDc0TFJMQT09OjhiYTcyYmMyNmQ2ZjlmY2FjOGVmZWVmNWNkNjQwNGMy',
             },
             {
               imgSrc: tvwall1,
-              imgHref: '好好住',
+              imgHref: 'https://m.haohaozhu.cn/tupian/0010qq4000015zlr.html?hz_dev=ios&hz_share_plfm=link&hz_share_uid=TnNCd2orZzJuY0RFaEtXNDc0TFJMQT09OjhiYTcyYmMyNmQ2ZjlmY2FjOGVmZWVmNWNkNjQwNGMy',
             },
             {
               imgSrc: tvwall2,
-              imgHref: '好好住',
+              imgHref: 'https://m.haohaozhu.cn/tupian/001zifb00004krn2.html?hz_dev=ios&hz_share_plfm=link&hz_share_uid=TnNCd2orZzJuY0RFaEtXNDc0TFJMQT09OjhiYTcyYmMyNmQ2ZjlmY2FjOGVmZWVmNWNkNjQwNGMy',
             },
             {
               imgSrc: tvwall3,
-              imgHref: '好好住',
+              imgHref: 'https://m.haohaozhu.cn/tupian/001y04s00000148u.html?hz_dev=ios&hz_share_plfm=link&hz_share_uid=TnNCd2orZzJuY0RFaEtXNDc0TFJMQT09OjhiYTcyYmMyNmQ2ZjlmY2FjOGVmZWVmNWNkNjQwNGMy',
             },
             {
               imgSrc: tvwall4,
-              imgHref: '好好住',
-            },
-            {
-              imgSrc: tvwall5,
-              imgHref: '好好住',
-            },
-            {
-              imgSrc: tvwall6,
-              imgHref: '好好住',
+              imgHref: 'https://m.haohaozhu.cn/tupian/003e2d6000001yxq.html?hz_dev=ios&hz_share_plfm=link&hz_share_uid=TnNCd2orZzJuY0RFaEtXNDc0TFJMQT09OjhiYTcyYmMyNmQ2ZjlmY2FjOGVmZWVmNWNkNjQwNGMy',
             },
           ],
         },

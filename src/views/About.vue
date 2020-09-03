@@ -24,7 +24,11 @@ export default defineComponent({
 </script>
 
 <style lang="scss" scoped>
+.about {
+  background-color: #fff;
+}
  .main {
    height: calc(100vh - 246px);
+   padding-left: 164px;
  }
 </style>
